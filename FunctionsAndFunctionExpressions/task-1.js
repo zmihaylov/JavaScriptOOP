@@ -29,7 +29,4 @@ function sum(params) {
     }
 
 }
-
-module.exports = sum;
-
 module.exports = sum;
