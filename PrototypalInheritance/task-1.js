@@ -171,6 +171,11 @@ function solve() {
             },
             appendChild: function (child) {
                 this.children.push(child);
+
+                if(typeof child === "object"){
+                    child.parent = this;
+                }
+
                 return this;
             },
             addAttribute: function (name, value) {
@@ -183,6 +188,14 @@ function solve() {
             },
             get innerHTML() {
                 return parseHTML.call(this);
+            },
+            removeAttribute: function (attribute) {
+                if(!this.attributes.hasOwnProperty(attribute)){
+                    throw  new Error('Attribute does not exits');
+                }
+
+                delete  this.attributes[attribute];
+                return this;
             }
         };
         return domElement;
