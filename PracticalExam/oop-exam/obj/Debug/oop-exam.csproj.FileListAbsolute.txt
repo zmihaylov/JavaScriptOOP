@@ -1,0 +1,6 @@
+C:\Users\Zlatimir\Documents\JavaScriptOOP\oop-exam\oop-exam\bin\oop-exam.dll.config
+C:\Users\Zlatimir\Documents\JavaScriptOOP\oop-exam\oop-exam\bin\oop-exam.dll
+C:\Users\Zlatimir\Documents\JavaScriptOOP\oop-exam\oop-exam\bin\oop-exam.pdb
+C:\Users\Zlatimir\Documents\JavaScriptOOP\oop-exam\oop-exam\obj\Debug\oop-exam.csprojResolveAssemblyReference.cache
+C:\Users\Zlatimir\Documents\JavaScriptOOP\oop-exam\oop-exam\obj\Debug\oop-exam.dll
+C:\Users\Zlatimir\Documents\JavaScriptOOP\oop-exam\oop-exam\obj\Debug\oop-exam.pdb
